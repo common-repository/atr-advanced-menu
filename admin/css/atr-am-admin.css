@@ -1,0 +1,38 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ .fields-wrapper-atr-mm {
+    background: #eee;
+    min-height: 450px;
+    float: left;
+    padding-left: 3px;
+    border: solid 1px #a0a5aa;
+}
+.fields-wrapper-atr-mm h2{
+    margin: 6px 0 0 0;
+}
+.atr-mm-wc-cat-img {
+    max-width: 75px;
+}
+.button.button-primary.atr-menu-save {
+    float: left;
+}
+.atr-inline-warning{
+    color: #a00;
+    padding: 0 0 4px 25px;
+}
+.atr-inline-red{
+    color: #a00;
+}
+.atr-inline-optional{
+    color: #008000;
+}
+.atr-content-from-post-wrpper {
+    float: left;
+}
+
+/*.atr-inline-warning {
+  background: rgba(0, 0, 0, 0) url("../../img/dialog_warning.png") no-repeat scroll left top;
+  padding: 0 0 4px 25px;
+}*/

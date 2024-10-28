@@ -1,0 +1,9 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ .atr-mm-menu-thumb img {
+    max-width: 36px;
+    float: right;
+    margin: 8px 0 0 10px;
+} 

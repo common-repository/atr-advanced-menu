@@ -1,0 +1,140 @@
+# Copyright (C) 2014 ATR All Menu
+# This file is distributed under the same license as the ATR All Menu package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ATR advanced menu 1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/ATR advanced menu\n"
+"POT-Creation-Date: 2016-09-09 11:20+0300\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Yehuda Tiram <yehuda@atarimtr.co.il>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.9\n"
+
+#: admin\class-atr-am-settings.php:102
+msgid "Atr Advanced Menu Options"
+msgstr ""
+
+#: admin\class-atr-am-settings.php:112
+msgid "Display Options"
+msgstr ""
+
+#: admin\walkers-edit\class-atr-am-walker-edit-fields.php:37
+msgid "ATR Advanced Menu custom fields"
+msgstr ""
+
+#: admin\walkers-edit\class-atr-am-walker-edit-fields.php:43
+msgid "<strong>Subtitle</strong>"
+msgstr ""
+
+#: admin\walkers-edit\class-atr-am-walker-edit-fields.php:52
+msgid "<strong>Panel class</strong> - used only in top level items (optional)"
+msgstr ""
+
+#: admin\walkers-edit\class-atr-am-walker-edit-fields.php:59
+msgid "Select item image"
+msgstr ""
+
+#: admin\walkers-edit\class-atr-am-walker-edit-fields.php:61
+msgid "None"
+msgstr ""
+
+#: admin\walkers-edit\class-atr-am-walker-edit-fields.php:62
+msgid "Use featured image"
+msgstr ""
+
+#: admin\walkers-edit\class-atr-am-walker-edit-fields.php:63
+msgid "Item image from library"
+msgstr ""
+
+#: admin\walkers-edit\class-atr-am-walker-edit-fields.php:63
+msgid "Item image from CSS"
+msgstr ""
+
+#: admin\walkers-edit\class-atr-am-walker-edit-fields.php:71
+msgid "Use the post featured image for this menu item"
+msgstr ""
+
+#: admin\walkers-edit\class-atr-am-walker-edit-fields.php:132
+msgid "<strong>Icon class</strong> - Write the class for font icon."
+msgstr ""
+
+#: admin\walkers-edit\class-atr-am-walker-edit-fields.php:142
+msgid "Content from post"
+msgstr ""
+
+#: admin\walkers-edit\class-atr-am-walker-edit-fields.php:146
+msgid "Remove title (and link) from this menu item."
+msgstr ""
+
+#: admin\walkers-edit\class-atr-am-walker-edit-fields.php:151
+msgid "<strong>Content from post</strong> - Write the the post id to insert its content into this item."
+msgstr ""
+
+#: admin\walkers-edit\class-atr-am-walker-edit-fields.php:158
+msgid "Use this post excerpt with link to target post."
+msgstr ""
+
+#: admin\walkers-edit\class-atr-am-walker-edit-fields.php:164
+msgid "Display this post featured image."
+msgstr ""
+
+msgid "<p class=\"atr-inline-warning featuredimage-error\"><span class=\"dashicons dashicons-warning\"></span>No featured image set. Please set it in post edit page!</p>"
+msgstr ""
+
+msgid "Upload/Select Image"
+msgstr ""
+
+msgid "Preview"
+msgstr ""
+
+msgid "<span class=\"atr-inline-warning\"><strong>Note: You cannot use font icon. Please define the font icons file in the plugin settings -> \"Load icon font\"! </strong></span>"
+msgstr ""
+
+msgid "You can, among other things, customize your menu classes and icon font from here."
+msgstr ""
+
+msgid "CSS file url"
+msgstr ""
+
+msgid "Leave empty if you write the menu css classes in style.css (in your active theme).<br />If you want a dedicated css file, write its URL here.<br />For first time use, try inserting here the URL: http://yoursite.com/wp-content/plugins/atr-advanced-menu/public/menu-templates/atr-megamenu-black.css<br />This is a black demo skin provided to get the feel of the plugin effect."
+msgstr ""
+
+msgid "Do not load any CSS file"
+msgstr ""
+
+msgid "<span class="atr-inline-red"><strong>It will prevent the load of any CSS file by the plugin</strong></span>.<br />In that case you must include some basic CSS classes in your theme for the menu to work properly. See what is mandatory for the menu to work <a target="_blank" href="http://www.atarimtr.com/atr-advanced-menu/mandatory-css-classes-atr/">here</a>."
+msgstr ""
+
+msgid "Icon font URL"
+msgstr ""
+
+msgid "<span class=\"atr-inline-optional\"><strong>Optional</strong></span> - The path to the icon font css.<br />If you want to use icon font for icons in the menu (like Font Awesome and others), you can load it here. You can experiment or use https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css.<br /><span class=\"atr-inline-red\"><strong>Note:</span> </strong>If you load the icon font in the theme (or anywhere else), make sure to check the next option in order to load this plugin's font only in edit mode and use it only for the backend preview (Your theme will load it for the front end)."
+msgstr ""
+
+msgid "I load icon fonts for front end elsewhere"
+msgstr ""
+
+msgid "Check this if you load icon fonts elsewhere (like from theme). The font will be loaded only for the backend preview."
+msgstr ""
+
+msgid "Menu panel default css class"
+msgstr ""
+
+msgid "Write the default class for the Mega Menu panels.<br />This class will be added to all the drop down panel elements.<br />i.e. if you write here a class named \"cols-4\" and in the menu editor in the top item's \"Panel class\" field write class name \"products-panel\", the final class set of the panel will be \"cols-4 products-panel accessible-megamenu-panel\" (accessible-megamenu-panel class is mandatory).<br />This option gives you the ability to control the style of all panels while the \"Panel class\" field in the menu editor gives you control of single panel."
+msgstr ""
+
+msgid "Menu items css class prefix"
+msgstr ""
+
+msgid "Write the css class prefix for the menu items.<br />The prefix is needed to single out your classes from optional conflicts. If you will not write a css class prefix here, the default theme menu classes (if exist) might be used."
+msgstr ""
+
+msgid "Display in style edit mode"
+msgstr ""
+
+msgid "<span class=\"atr-inline-red\"><strong>For development only:</strong></span> Check this if you want the drop down panel of the menu to stay open after the mouse is out of the top level items.<br />Good for editing the CSS of the menu."
+msgstr ""

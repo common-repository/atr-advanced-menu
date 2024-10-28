@@ -1,0 +1,245 @@
+
+/* ATR Advonced Menu start Black Skin*/
+/****************** Optional classes ********************************************/
+/*<editor-fold desc=".accessible-megamenu-panel.cols">*/
+
+/*************** Layouts of panel & elements *******************/
+/* These are suggestions only. you can use whatever class names you want */
+/* Just make sure you change the appropriate fields in the menu editor accordingly */
+/**************************************************************/
+
+/* sub-list-1 is the first ul under the menu panels (thos that are opened on hover)*/
+.accessible-megamenu-panel .sub-list-1 {
+  width: 250px;
+}
+
+/* Classes for the panel wrapper */
+/* Use in "Panel class - used only in top level items (optional)" text box of the panel parent item. */
+.panel-75x22em {
+  height: 30em;
+  width: 75em;
+}
+
+.panel-50x22em {
+	/*height: 22em;*/
+	width: 55em;
+}
+
+.panel-50x20em {
+	/*height: 20em;*/
+	width: 50em;
+}
+
+.panel-form {
+	/*height: 19em;*/
+	width: 15em;
+}
+
+.panel-50x22em-a {
+	width: 450px;
+}
+
+.panel-23x44em {
+	/*height: 23em;*/
+	width: 44em;
+}
+
+/* Classes for layout of the panel inner items */
+/* Use in WP menu editor "CSS Classes (optional)" text box of the panel inner items. */
+.atr-am-onethird {
+	width: 32%;
+}
+
+.atr-am-twothirds {
+	width: 65%;
+}
+
+.atr-am-half {
+	width: 50%;
+}
+
+/* .panel-50x22em-a ul li {
+	float: left;
+	width: 200px;
+} */
+
+.panel-23x44em.accessible-megamenu-panel > ul > li.atr-am-monkey {
+	border: medium none;
+	width: 356px;
+}
+
+.panel-2-cols li {
+	margin: 1%;
+	width: 48%;
+}
+.atr-am-menu-home-1,.atr-am-menu-home-2,.atr-am-menu-home-4{
+	width: 20%
+}
+.atr-am-menu-home-3{
+	width: 40%;
+}
+/*************** End Layouts of panel & elements *******************/
+
+/* Design */
+.megamenu {
+}
+
+	.megamenu .accessible-megamenu {
+		height: 56px;
+		background: #333 none repeat scroll 0 0;
+		border-bottom: 1px solid #090909;
+		border-top: 1px solid #444;
+		margin: 0;
+	}
+
+ul.accessible-megamenu > li {
+	border-left: 1px solid #444;
+	border-right: 1px solid #090909;
+	list-style: none;
+}
+
+	ul.accessible-megamenu > li.accessible-megamenu-top-nav-item > a {
+	  color: #ccc;
+	  display: block;
+	  padding: 5px 7px;
+	  text-decoration: none;
+	}
+	.accessible-megamenu .accessible-megamenu-panel a {
+	  font-size: 12px;
+	}
+	ul.accessible-megamenu > li.accessible-megamenu-top-nav-item > a .menu-item-title-att {
+	  color: #f5caca;
+	  font-size: 0.7em;
+	  letter-spacing: 1.7px;
+	  margin: 0;
+	}
+
+ul.accessible-megamenu li {
+	list-style: none;
+}
+
+
+
+ul.accessible-megamenu > li > a img, ul.accessible-megamenu > li > a b {
+  color: #d6bf31;
+  float: left;
+  height: auto;
+  margin: 3px 6px 0 0;
+  max-width: 19px;
+}
+
+.accessible-megamenu .accessible-megamenu-panel {
+	display: flex;
+	background: #333 none repeat scroll 0 0;
+	border-bottom: 1px solid #090909;
+	border-top: 1px solid #444;
+	border-right: 1px solid #090909;
+	border-left: 1px solid #444;
+}
+	.accessible-megamenu .accessible-megamenu-panel.open{ /* set the menu panels down from main menu items */
+		top: 3em;
+	}
+	.accessible-megamenu .accessible-megamenu-panel .atr-am-menu-thumb > img {
+		border: 1px solid #ccc;
+		float: left;
+		margin: 0 12px;
+		width: 55px;
+	}
+
+	.accessible-megamenu .accessible-megamenu-panel ul.sub-list-0 > li {
+		float: left;
+		background: rgba(179, 179, 179, 0.2) none repeat scroll 0 0;
+		box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+		float: left;
+		margin: 5px;
+		padding: 6px 12px;
+	}
+
+	.accessible-megamenu .accessible-megamenu-panel ul.sub-list-1 > li {
+		background: rgba(179, 179, 179, 0.2) none repeat scroll 0 0;
+		box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+		float: left;
+		margin: 5px;
+		padding: 6px 12px;
+	}
+
+	.accessible-megamenu .accessible-megamenu-panel, .accessible-megamenu .accessible-megamenu-panel a {
+		color: #cfcfcf;
+	}
+
+		.accessible-megamenu .accessible-megamenu-panel .sub-list-1, .accessible-megamenu .accessible-megamenu-panel .sub-list-2, .accessible-megamenu .accessible-megamenu-panel .sub-list-3, .accessible-megamenu .accessible-megamenu-panel .sub-list-4 {
+			box-shadow: none;
+			float: left;
+			left: auto;
+			position: relative;
+			margin: 0;
+		}
+
+		.accessible-megamenu .accessible-megamenu-panel .sub-list-0 li.home-sub-1 .sub-list-1 > li {
+			width: 47%;
+		}
+
+		.accessible-megamenu .accessible-megamenu-panel .sub-list-0 li {
+			float: left;
+			margin: 0 0 13px;
+		}
+
+			.accessible-megamenu .accessible-megamenu-panel .sub-list-0 li > a {
+				float: left;
+				width: 100%;
+				background: #333 none repeat scroll 0 0;
+				box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+				margin: 5px;
+				padding: 6px 12px;
+			  display: block;
+			  font-size: 17px;				
+			}
+			.atr-mm-menu-thumb {
+			  background: #fff none repeat scroll 0 0;
+			}			
+.menu-item-content-from-post > p, .main-navigation ul ul a, .atr-mm-postexcerpt,.menu-item-subtitle {
+  font-size: 0.7em;
+}
+.sub-list-0 b { /* controls the style of icont font in level 1 */
+  color: #43de5b;
+  margin: 0 6px 0 0;
+}	
+.menu-item-content-from-post {
+  font-size: 0.8em; /* Controls the item from post */
+}	
+/* Shop panel */
+.atr-am.shop-panel.accessible-megamenu-panel {
+  width: 27em;
+}
+/* Product panel */
+.accessible-megamenu .accessible-megamenu-panel.products-panel .sub-list-0 li > a {
+  width: 105px;
+}
+.accessible-megamenu .accessible-megamenu-panel.products-panel .sub-list-0 li .sub-list-1 li > a {
+  background: rgba(51, 18, 18, 0.83) none repeat scroll 0 0;
+  font-size: 13px;
+  width: 210px;
+}
+.accessible-megamenu .accessible-megamenu-panel.products-panel .atr-mm-menu-thumb {
+  width: 75px;
+  float: left;
+  margin-right: 10px;
+}
+.accessible-megamenu .accessible-megamenu-panel.products-panel .sub-list-1 .atr-mm-menu-thumb {
+  float: left;
+  margin-right: 10px;
+  width: 45px;
+}
+
+/* Contact form in menu */
+.atr-am-menu-item-508 label {
+  font-size: 12px;
+}
+.menu-item-content-from-post .wpcf7-form p {
+  margin: 0;
+  padding: 0;
+}
+.menu-item-content-from-post .wpcf7-form p .wpcf7-submit {
+  font-size: 18px;
+}
+/* ATR Advonced Menu End*/

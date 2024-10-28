@@ -1,0 +1,269 @@
+# Copyright (C) 2014 ATR All Menu
+# This file is distributed under the same license as the ATR All Menu package.
+msgid ""
+msgstr ""
+"Project-Id-Version: ATR advanced menu 1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/ATR advanced menu\n"
+"POT-Creation-Date: 2016-09-09 11:37+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Yehuda Tiram <yehuda@atarimtr.co.il>\n"
+"Language-Team: \n"
+"Language: he_IL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: admin\class-atr-am-settings.php:102
+msgid "Atr Advanced Menu Options"
+msgstr "אפשרויות - אתרים ת.ר. - תפריט מתקדם"
+
+#: admin\class-atr-am-settings.php:112
+msgid "Display Options"
+msgstr "הצג אפשרויות"
+
+#: admin\walkers-edit\class-atr-am-walker-edit-fields.php:37
+msgid "ATR Advanced Menu custom fields"
+msgstr "שדות מותאמים - אתרים ת.ר. - תפריט מתקדם"
+
+#: admin\walkers-edit\class-atr-am-walker-edit-fields.php:43
+msgid "<strong>Subtitle</strong>"
+msgstr "<strong>כותרת משנה</strong>"
+
+#: admin\walkers-edit\class-atr-am-walker-edit-fields.php:52
+msgid "<strong>Panel class</strong> - used only in top level items (optional)"
+msgstr "<strong>מחלקת הפאנל</strong> - רלוונטי רק לרמה העליונה (אופציונאלי)"
+
+#: admin\walkers-edit\class-atr-am-walker-edit-fields.php:59
+msgid "Select item image"
+msgstr "בחר תמונה לפריט"
+
+#: admin\walkers-edit\class-atr-am-walker-edit-fields.php:61
+msgid "None"
+msgstr "כלום"
+
+#: admin\walkers-edit\class-atr-am-walker-edit-fields.php:62
+msgid "Use featured image"
+msgstr "השתמש בתמונה ראשית"
+
+#: admin\walkers-edit\class-atr-am-walker-edit-fields.php:63
+msgid "Item image from library"
+msgstr "תמונת פריט מספרית המדיה"
+
+#: admin\walkers-edit\class-atr-am-walker-edit-fields.php:63
+msgid "Item image from CSS"
+msgstr "תמונת פריט מ CSS"
+
+#: admin\walkers-edit\class-atr-am-walker-edit-fields.php:71
+msgid "Use the post featured image for this menu item"
+msgstr "השתמש בתמונה הראשית של הפוסט לפריט זה"
+
+#: admin\walkers-edit\class-atr-am-walker-edit-fields.php:132
+msgid "<strong>Icon class</strong> - Write the class for font icon."
+msgstr "<strong>מחלקת האייקון</strong> - כתוב את שם המחלקה לפונט אייקון."
+
+#: admin\walkers-edit\class-atr-am-walker-edit-fields.php:142
+msgid "Content from post"
+msgstr "תוכן מפוסט"
+
+#: admin\walkers-edit\class-atr-am-walker-edit-fields.php:146
+msgid "Remove title (and link) from this menu item."
+msgstr "הסר כותרת (וקישור) מפריט זה."
+
+#: admin\walkers-edit\class-atr-am-walker-edit-fields.php:151
+msgid ""
+"<strong>Content from post</strong> - Write the the post id to insert its "
+"content into this item."
+msgstr ""
+"<strong>תוכן מפוסט</strong> - כתוב את מספר הזיהוי של הפוסט כדי להכניס את "
+"תכנו לפריט זה."
+
+#: admin\walkers-edit\class-atr-am-walker-edit-fields.php:158
+msgid "Use this post excerpt with link to target post."
+msgstr "השתמש בתקציר של פוסט זה עם קישור לגוף הפוסט."
+
+#: admin\walkers-edit\class-atr-am-walker-edit-fields.php:164
+msgid "Display this post featured image."
+msgstr "הצג את התמונה הראשית של פוסט זה."
+
+msgid ""
+"<p class=\"atr-inline-warning featuredimage-error\"><span class=\"dashicons "
+"dashicons-warning\"></span>No featured image set. Please set it in post edit "
+"page!</p>"
+msgstr ""
+"<p class=\"atr-inline-warning featuredimage-error\"><span class=\"dashicons "
+"dashicons-warning\"></span>לא הוגדרה תמונה ראשית. נא הגדר אותה בעריכת הפוסט!"
+"</p>"
+
+msgid "Upload/Select Image"
+msgstr "העלאה\\בחירת תמונה"
+
+msgid "Preview"
+msgstr "צפיה מקדימה"
+
+msgid ""
+"<span class=\"atr-inline-warning\"><strong>Note: You cannot use font icon. "
+"Please define the font icons file in the plugin settings -> \"Load icon font"
+"\"! </strong></span>"
+msgstr ""
+"<span class=\"atr-inline-warning\"><strong>שים לב: אינך יכול להשתמש בפונט "
+"אייקון. נא לגשת להגדרות התוסף ולכתוב את הנתיב לקובץ פונט אייקון בשדה \"Load "
+"icon font\"! </strong></span>"
+
+msgid ""
+"You can, among other things, customize your menu classes and icon font from "
+"here."
+msgstr ""
+"כאן ניתן, בין השאר, לקבוע את מחלקות ה CSS של התפריט ואת קובץ האייקון פונט"
+
+msgid "CSS file url"
+msgstr "כתובת URL של קובץ ה CSS שלך"
+
+msgid ""
+"Leave empty if you write the menu css classes in style.css (in your active "
+"theme).<br />If you want a dedicated css file, write its URL here.<br />For "
+"first time use, try inserting here the URL: http://yoursite.com/wp-content/"
+"plugins/atr-advanced-menu/public/menu-templates/atr-megamenu-black.css<br /"
+">This is a black demo skin provided to get the feel of the plugin effect."
+msgstr ""
+"השאר ריק אם הינך כותב את כל מחלקות ה CSS של התפריט בקובץ style.css (בתבנית "
+"הפעילה שלך).<br />אם ברצונך להשתמש בקובץ CSS ייעודי לתפריט, כתוב את כתובת ה "
+"URL של קובץ זה כאן.<br />לשימוש ראשון תוכל לכתוב את ה URL http://yoursite."
+"com/wp-content/plugins/atr-advanced-menu/public/menu-templates/atr-megamenu-"
+"black.css. זהו סקין שחור המסופק עם התוסף כדי שתוכל לראות את האפקט של השימוש "
+"בו."
+
+msgid "Do not load any CSS file"
+msgstr "אל תטען כלל קובץ CSS לתפריט"
+
+msgid ""
+"<span class=\"atr-inline-red\"><strong>It will prevent the load of any CSS "
+"file by the plugin</strong></span>.<br />In that case you must include some "
+"basic CSS classes in your theme for the menu to work properly. See what is "
+"mandatory for the menu to work <a target=\"_blank\" href=\"http://www."
+"atarimtr.com/atr-advanced-menu/mandatory-css-classes-atr/\">here</a>."
+msgstr ""
+"<span class=\"atr-inline-red\"><strong>סימון זה ימנע טעינה של כל קבצי ה CSS "
+"על ידי התוסף.</strong></span><br />במקרה זה הינך חייב לכלול מחלקות CSS "
+"חיוניות בתבנית הפעילה שלך על מנת שהתפריט יעבוד כראוי. ראה מחלקות אלו <a "
+"target=\"_blank\" href=\"http://www.atarimtr.com/atr-advanced-menu/mandatory-"
+"css-classes-atr/\">here</a>  "
+
+msgid "Icon font URL"
+msgstr "כתובת URL של קובץ האייקון פונט"
+
+msgid ""
+"<span class=\"atr-inline-optional\"><strong>Optional</strong></span> - The "
+"path to the icon font css.<br />If you want to use icon font for icons in "
+"the menu (like Font Awesome and others), you can load it here. You can "
+"experiment or use https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/"
+"font-awesome.min.css.<br /><span class=\"atr-inline-red\"><strong>Note:</"
+"span> </strong>If you load the icon font in the theme (or anywhere else), "
+"make sure to check the next option in order to load this plugin's font only "
+"in edit mode and use it only for the backend preview (Your theme will load "
+"it for the front end)."
+msgstr ""
+
+msgid "I load icon fonts for front end elsewhere"
+msgstr "אני טוען את קובץ האייקון פונט במקום אחר."
+
+msgid ""
+"Check this if you load icon fonts elsewhere (like from theme). The font will "
+"be loaded only for the backend preview."
+msgstr ""
+"סמן כאן אם הינך טוען את האייקון פונט במקום אחר (למשל בתבנית הפעילה שלך). "
+"הפונט ייטען רק בתצוגת אדמינ."
+
+msgid "Menu panel default css class"
+msgstr "מחלקת CSS של הפאנלים בתפריט"
+
+msgid ""
+"Write the default class for the Mega Menu panels.<br />This class will be "
+"added to all the drop down panel elements.<br />i.e. if you write here a "
+"class named \"cols-4\" and in the menu editor in the top item's \"Panel class"
+"\" field write class name \"products-panel\", the final class set of the "
+"panel will be \"cols-4 products-panel accessible-megamenu-panel"
+"\" (accessible-megamenu-panel class is mandatory).<br />This option gives "
+"you the ability to control the style of all panels while the \"Panel class\" "
+"field in the menu editor gives you control of single panel."
+msgstr ""
+
+msgid "Menu items css class prefix"
+msgstr "קידומת למחלקות ה CSS בתפריט"
+
+msgid ""
+"Write the css class prefix for the menu items.<br />The prefix is needed to "
+"single out your classes from optional conflicts. If you will not write a css "
+"class prefix here, the default theme menu classes (if exist) might be used."
+msgstr ""
+
+msgid "Display in style edit mode"
+msgstr "הצג תפריט במצב פיתוח"
+
+msgid ""
+"<span class=\"atr-inline-red\"><strong>For development only:</strong></span> "
+"Check this if you want the drop down panel of the menu to stay open after "
+"the mouse is out of the top level items.<br />Good for editing the CSS of "
+"the menu."
+msgstr ""
+
+#~ msgid "Alternate CSS file url"
+#~ msgstr "כתובת URL לקובץ CSS אלטרנטיבי"
+
+#~ msgid ""
+#~ "Do not load any CSS file<br /><span class=\"atr-inline-red"
+#~ "\"><strong>Please make sure \"Alternate CSS file url\" above is empty.</"
+#~ "strong></span>"
+#~ msgstr ""
+#~ "לא לטעון קובץ CSS כלל<br /><span class=\"atr-inline-red\"><strong>נא וודא "
+#~ "כי התיבה \"כתובת URL לקובץ CSS אלטרנטיבי\" ריקה.</strong></span>"
+
+#~ msgid ""
+#~ "You can, among other settings, customize your menu classes and icon font "
+#~ "from here."
+#~ msgstr "כאן ניתן, בין השאר, לשנות את המחלקות והאייקונים של התפריט שלך."
+
+#~ msgid "Write the css file url"
+#~ msgstr "כתוב את ה URL של קובץ ה CSS"
+
+#~ msgid "Load icon font"
+#~ msgstr "טען קובץ אייקון פונט"
+
+#~ msgid "Write the css file name (without extension)"
+#~ msgstr "כתוב את שם קובץ ה CSS (ללא סיומת)"
+
+#~ msgid "<strong>Icon class</strong> - Write the class for backgground icon."
+#~ msgstr "<strong>מחלקת האייקון</strong> - כתוב את שם המחלקה לאייקון ברקע."
+
+#~ msgid ""
+#~ "<p><br /><span class=\"atr-inline-optional\"><strong>Optional</strong></"
+#~ "span> - Leave empty in order to use the plugin’s default \"megamenu.css\" "
+#~ "file (stored in \\wp-content\\plugins\atr-all-menu\assets\\menu-templates"
+#~ "\\megamenu.css).<br />Or, if you want to use your own CSS file for the "
+#~ "menu:<br />1. Create a new directory named \"atr-all-menu\" (if not "
+#~ "already exist) in \"/wp-content/uploads/\" directory of your Wordpress "
+#~ "file system and upload your CSS file into it<br />2. Write here in the "
+#~ "textbox the new file name without the extension. (i.e. If you uploaded a "
+#~ "file called \"my-menu.css\", write here \"my-menu \")<br />3. <span class="
+#~ "\"atr-inline-optional\"><strong>Important:</strong></span> Your CSS file "
+#~ "must include some basic classes for the menu to work properly. Read in "
+#~ "the plugin’s documentation files about it. You can also find them in the "
+#~ "file \"megamenu-basic.css\" included in the plugin documentation "
+#~ "directory.</li></ol>"
+#~ msgstr ""
+#~ "<p><span class=\\\"atr-inline-optional\\\"><strong>אופציונאלי</strong></"
+#~ "span> - השאר ריק כדי להשתמש בקובץ ברירת המחדל של התוסף  \\\"megamenu.css\\"
+#~ "\" (נמצא ב /wp-content/plugins/atr-advanced-menu/public/menu-templates/"
+#~ "megamenu.css).<br />או, אם ברצונך להשתמש בקובץ שלך לתפריט:<br />1. צור "
+#~ "תיקייה חדשה בשם \\\"atr-advanced-menu\\\" (אם עדיין לא קיימת) בתוך "
+#~ "התיקייה \\\"/wp-content/uploads/\\\" במערכת הקבצים של וורדפרס והעלה לשם "
+#~ "את קובץ ה CSS שלך.<br />2. כתוב כאן את שם הקובץ ללא סיומת (דהיינו, אם שם "
+#~ "הקובץ שלך הוא \\\"my-menu.css\\\", כתוב כאן \\\"my-menu \\\")<br />3."
+#~ "<span class=\\\"atr-inline-optional\\\"><strong>חשוב: </strong></"
+#~ "span>קובץ ה CSS שלך חייב להכיל מספר מחלקות החיוניות לתפקוד נכון של "
+#~ "התפריט. קרא בתיעוד של התוסף אודות מחלקות אלו. ניתן למצוא תיעוד זה גם "
+#~ "בקובץ \\\"megamenu-basic.css\\\" הנמצא בתיקיית התיעוד של התוסף.</p>"
+
+#~ msgid "No featured image set. Please set it in post edit page!"
+#~ msgstr "לא הוגדרה תמונה ראשית. נא הגדר אותה בעריכת הפוסט!"
